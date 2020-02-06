@@ -1,20 +1,13 @@
 package com.addigy.automation.AddigyAutomation;
 
-import java.io.File;
 import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
-import java.util.concurrent.TimeUnit;
 
-import org.apache.logging.log4j.core.Logger;
-import org.apache.logging.log4j.core.config.Loggers;
 import org.junit.*;
 import org.openqa.selenium.By;
-import org.openqa.selenium.By.ByName;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeDriverService;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
